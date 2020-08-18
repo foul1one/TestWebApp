@@ -1,0 +1,10 @@
+com\TestServer\dao\UserDao.class
+com\TestServer\config\WebAppInitializer.class
+com\TestServer\config\WebConfig.class
+com\TestServer\service\UserServiceImpl.class
+com\TestServer\mapper\UserMapper.class
+com\TestServer\controller\UserController.class
+com\TestServer\dao\UserDaoImpl.class
+com\TestServer\config\SpringConfig.class
+com\TestServer\service\UserService.class
+com\TestServer\entity\User.class

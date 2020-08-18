@@ -1,0 +1,47 @@
+<div>
+  <form>
+
+    <input type="hidden" name="book.id" />
+    <div>
+
+      <label for="InputName">Имя пользователя</label>
+      <input type="text" [(ngModel)]="user.name" name = "name" class="form-control" id="InputName" placeholder="Нажмите изменить">
+      <br>
+
+    </div>
+    <div >
+
+      <label for="InputEmail">Email адрес</label>
+      <input type="email" [(ngModel)]="user.email" name = "email" class="form-control" id="InputEmail"  placeholder="Нажмите изменить">
+      <br>
+    </div>
+
+    <button class="btn btn-primary" (click)="updateUser()">Изменить</button>
+    <button class="btn btn-primary" (click)="reset()">Отменить</button>
+    <br>
+    <br>
+
+
+  </form>
+
+</div>
+<div>
+  <table border="1" class="table table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>EMAIL</th>
+      <th>ACTIONS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor = "let user of users">
+      <td><b>{{user.id}}</b></td>
+      <td>{{user.name}}</td>
+      <td>{{user.email}}</td>
+      <td><button (click) = "getUserById(user.id)" class="btn btn-primary">Изменить</button> | <button (click)="deleteUser(user.id)" class="btn btn-primary">Удалить</button></td>
+    </tr>
+    </tbody>
+  </table>
+</div>

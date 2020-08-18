@@ -1,0 +1,25 @@
+<table border="1" class="table table-striped">
+  <thead>
+  <tr>
+    <th >ID</th>
+    <th>NAME</th>
+    <th>EMAIL</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor = "let user of users">
+    <td><b>{{user.id}}</b></td>
+    <td>{{user.name}}</td>
+    <td>{{user.email}}</td>
+  </tr>
+
+  <tr *ngIf = "!users">
+    <td colspan = "3">Loading... Please wait....</td>
+  </tr>
+  <tr *ngIf = "users && users.length == 0">
+    <td colspan = "3">No records found!</td>
+  </tr>
+  </tbody>
+
+</table>
+

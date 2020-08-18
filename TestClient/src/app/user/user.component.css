@@ -1,0 +1,14 @@
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+
+input {
+  width: 250px;
+}
+
+table{
+  width: 70%;
+}

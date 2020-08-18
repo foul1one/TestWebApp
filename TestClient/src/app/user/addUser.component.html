@@ -1,0 +1,25 @@
+<div>
+  <form>
+
+    <input type="hidden" name="book.id" />
+    <div>
+
+      <label for="InputName">Имя пользователя</label>
+      <input type="text" [(ngModel)]="user.name" name = "name" class="form-control" id="InputName" placeholder="Введите имя">
+      <br>
+
+    </div>
+    <div >
+
+      <label for="InputEmail">Email адрес</label>
+      <input type="email" [(ngModel)]="user.email" name = "email" class="form-control" id="InputEmail"  placeholder="Введите email">
+      <br>
+    </div>
+
+    <button class="btn btn-primary" (click)="addUser()">Добавить</button>
+    <button class="btn btn-primary" (click)="reset()">Отменить</button>
+
+
+  </form>
+
+</div>
