@@ -4,7 +4,7 @@
 
 1. TestServer - Серверная часть написана с использованием Spring MVC, Sping-jdbc, REST API и MySQL
 
-2. TestClient - Клиентская часть написана на с использованием Angular
+2. TestClient - Клиентская часть написана с использованием Angular
 
 Для работы с приложением скачайте данный репозиторий Code -> Download ZIP
 
