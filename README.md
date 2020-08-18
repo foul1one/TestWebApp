@@ -35,7 +35,7 @@ mvn package
 Будет создан новый файл WAR TestServer/target/TestServer-1.0-SNAPSHOT.war 
 Скопируйте его и разверните на своем Tomcat сервере.
 
-Приложение начнет работать по адресу <localhost:8080/TestServer_war>
+Приложение начнет работать по адресу < http://localhost:8080/TestServer_war>
 
 ## Настрока клиента
 
