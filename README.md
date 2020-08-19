@@ -32,7 +32,7 @@ CREATE TABLE user (id INT AUTO_INCREMENT, email CHAR(60), name CHAR(60), PRIMARY
 mvn package
 ```
 
-Будет создан новый файл WAR TestServer/target/TestServer-1.0-SNAPSHOT.war 
+Будет создан новый файл WAR `TestServer/target/TestServer-1.0-SNAPSHOT.war` 
 Скопируйте его и разверните на своем Tomcat сервере.
 
 Приложение начнет работать по адресу <http://localhost:8080/TestServer_war>
